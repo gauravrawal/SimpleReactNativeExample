@@ -33,7 +33,7 @@ class App extends Component {
     var content, navigationBar;
     switch (route.name) {
       case 'pokemons':
-        navigationBar = this.renderNavigationBar({ title: 'Pokemons' });
+        navigationBar = this.renderNavigationBar({ title: 'Pokémon' });
         content = <PokemonList navigator={navigator} />;
         break;
       case 'pokemon':
